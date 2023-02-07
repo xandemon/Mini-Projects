@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo List [Sandesh]</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Your Todo Lists.</h2>
+        <form id="todo-form">
+            <input type="text">
+            <button type="submit">Add this!</button>
+        </form>
+        <div>
+            <ul class="todo-lists">
+            </ul>
+        </div>
+    </div>
+    <template class="lists-template">
+        <li class="list-item" data-todo-id="xyz">
+            <label class="list-item-label">
+                <input type="checkbox" data-list-item-checkbox>
+                <span data-list-item-text></span>
+            </label>
+            <button type="button" data-del-button>Delete</button>
+        </li>
+    </template>
+</body>
+</html>

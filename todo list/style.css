@@ -1,0 +1,9 @@
+ul {
+    list-style-type: square;
+}
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+}
