@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*buttons*/
+.date-picker-btn {
+    padding: 2px 4px;
+    position: relative;
+}
+.date-picker-dates button {
+    border: none;
+}
+.other-month-date {
+    color: gray;
+}
+button.selected{
+    color: white;
+    background-color: rgb(0, 110, 255);
+}
+/*buttons*/
+
+h2 {
+    margin: 10px 0;
+}
+.date-picker {
+    display: block;
+    position: absolute;
+    top: 5rem;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+}
+.date-picker.hide {
+    display: none;
+}
+.date-picker-heading {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.grid-cols-7 {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(7, 2rem);
+    grid-auto-columns: auto;
+    grid-auto-rows: 40px;
+    grid-auto-rows: 2rem;
+}
+.date-picker-days {
+    font-size: small;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
