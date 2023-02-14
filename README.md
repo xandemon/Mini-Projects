@@ -1,2 +1,2 @@
-# random-tasks
-just some random tasks and challenges
+# mini-projects
+small projects/ functionalities that can be integrated to real-world websites
