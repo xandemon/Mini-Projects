@@ -31,6 +31,7 @@
   </section>
   
   <section>
+    
     <div data-shopping-cart class="invisible mb-4 top-0 right-0 mr-4 mt-20 fixed">
       <div style="max-height: calc(100vh - 6rem);"
       class="bg-white text-gray-700 body-font shadow-lg border rounded-lg flex flex-col">
@@ -45,14 +46,14 @@
     </div>
 
     <!-- shopping cart button -->
-    <button data-cart-button class="fixed top-0 right-0 mr-4 mt-4 w-12 bg-blue-500 p-2 rounded-full text-white hover:bg-blue-700">
+    <button data-cart-button class="fixed top-0 right-0 mr-4 mt-4 w-12 bg-blue-500 p-2 rounded-md text-white hover:bg-blue-700">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
           d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
       </svg>
       <div
         class="bg-red-500 rounded-full text-xs absolute w-6 h-6 flex justify-center items-center right-0 bottom-0 transform translate-x-2 translate-y-2">
-        2</div>
+        0</div>
     </button>
   </section>
 
@@ -84,11 +85,10 @@
       <div class="mt-2 flex justify-between">
         <div class="flex items-center title-font">
           <h2 data-cart-item-name class="text-gray-900 text-lg font-medium">
-            Red
           </h2>
-          <span data-cart-item-quantity class="text-gray-600 text-sm font-bold ml-1">x2</span>
+          <span data-cart-item-quantity class="text-gray-600 text-sm font-bold ml-1"></span>
         </div>
-        <div data-cart-item-price>$32.00</div>
+        <div data-cart-item-price></div>
       </div>
     </div>
   </template>
