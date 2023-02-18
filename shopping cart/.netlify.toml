@@ -1,0 +1,3 @@
+# Clear cache before every build
+[build]
+  command = "npm run clear-cache && npm run build"
