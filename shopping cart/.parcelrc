@@ -1,0 +1,16 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.html": ["@parcel/transformer-html"],
+    "*.js": ["@parcel/transformer-js"]
+  },
+  "packagers": {
+    "*.html": "@parcel/packager-html",
+    "*.js": "@parcel/packager-js"
+  },
+  "optimizers": {
+    "*.html": ["@parcel/optimizer-htmlnano"],
+    "*.js": ["@parcel/optimizer-terser"]
+  },
+  "publicUrl": "./"
+}
