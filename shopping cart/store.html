@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <title>Store</title>
-  <script defer src="script.js"></script>
+  <script defer src="./script.js"></script>
 </head>
 
 <body>
@@ -21,7 +21,6 @@
       </nav>
     </div>
   </header>
-  
   <section class="text-gray-700 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div data-items-container class="flex flex-wrap -m-4">
@@ -44,7 +43,6 @@
         </div>
       </div>
     </div>
-
     <!-- shopping cart button -->
     <button data-cart-button class="fixed top-0 right-0 mr-4 mt-4 w-12 bg-blue-500 p-2 rounded-md text-white hover:bg-blue-700">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -55,6 +53,7 @@
         class="bg-red-500 rounded-full text-xs absolute w-6 h-6 flex justify-center items-center right-0 bottom-0 transform translate-x-2 translate-y-2">
         0</div>
     </button>
+    
   </section>
 
   <template data-store-item-template>

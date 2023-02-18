@@ -8,7 +8,6 @@ const storeItemTemplate = document.querySelector("[data-store-item-template]"); 
 const IMAGE_LINK = "https://dummyimage.com/420x260";
 
 
-
 //main function which will setup the store
 export default function setupStore() {
     //populating items from json file
