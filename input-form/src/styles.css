@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #8860d0;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 40%;
+  border: 0.25px solid gray;
+  border-radius: 5px;
+  padding: 20px 30px;
+  background-color: rgb(226, 226, 226);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.input-form h1 {
+  margin-bottom: 10px;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+  /* border: 1px solid rgba(0, 0, 0, 0.75); */
+}
+
+.input-icon {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  margin-left: 10px;
+}
+
+.message-text {
+  min-height: 100px;
+}
+
+.error-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: rgba(205, 92, 92, 0.87);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #8860d0;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: white;
+}
+
+/*
+TO HIDE SHOW-PASSWORD EYE ICON
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+*/
